@@ -1,0 +1,68 @@
+/* styles.css */
+.window {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box {
+    width: 80%;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text,
+.right-text {
+    width: 48%;
+}
+
+nav {
+    height: 20vh;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-top: 40px;
+}
+
+nav button {
+    font-size: 20px;
+    margin: 0 10px; /* Aumenta el espacio horizontal entre los botones */
+}
+
+/* Nuevos estilos para la galería */
+.image-spaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribución equitativa */
+    margin-top: 40px; /* Espacio entre la galería y los botones */
+}
+
+.image-box {
+    width: calc(25% - 20px); /* Ajusta el ancho según tus necesidades */
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    margin-bottom: 30px; /* Espacio adicional entre las filas */
+    background-color: #ffffff; /* Color de fondo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000; /* Borde negro */
+}
